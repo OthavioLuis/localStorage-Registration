@@ -1,4 +1,4 @@
-# README
+# Armazenamento no LocalStorage
 
 Este projeto é uma aplicação web simples que utiliza o `localStorage` do navegador para armazenar e gerenciar dados de um formulário. Abaixo, está uma explicação rápida de como funciona:
 
