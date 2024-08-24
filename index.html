@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Cadastro</title>
+</head>
+<body>
+    <main>
+        <form id="formulario">
+            <h1>Cadastro Básico</h1>
+            <label for="nome">Digite seu nome</label>
+            <input type="text" name="nome" id="nome"> <br>
+            <label for="idade">Digite sua idade</label>
+            <input type="number" name="idade" id="idade"> <br>
+            <label for="email">Digite seu melhor Email</label>
+            <input type="email" name="email" id="email"> <br>
+            <input class="botao" type="submit" value="Cadastrar">
+        </form>
+    </main>
+
+    <section>
+        <h1>Dados Cadastrados</h1>
+        <ul id="lista"></ul>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
